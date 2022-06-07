@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+
+  text-align: center;
+}
+/* TAGS */
+
+body {
+  background-color: #041c32;
+  font-family: "Space Mono", monospace;
+  color: #ecb365;
+}
+h2,
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h4 {
+  text-align: justify;
+}
+h5,
+h6 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+a h4 {
+  color: #ecb365;
+}
+img {
+  width: 180px;
+  height: auto;
+}
+hr {
+  margin-top: 30px;
+  margin-left: 48%;
+  border-style: dotted none none;
+  border-color: #ecb365;
+  border-width: 5px;
+  width: 5%;
+}
+div {
+  overflow: hidden;
+}
+
+form {
+  margin-bottom: 50px;
+}
+input {
+  margin: 5px;
+}
+
+/* CLASSES */
+
+.nav-bar {
+  padding: 10px 0px 10px 0px;
+}
+
+.nav-links {
+  padding-left: 8px;
+  padding-right: 8px;
+
+  color: #ecb365;
+}
+
+.nav-links:hover {
+  background-color: #ecb365;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  font-weight: 700;
+  /* font-size: 18px; */
+  color: #041c32;
+}
+
+.hero {
+  background: url("../images/hero-bgr.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 450px;
+  color: #ecb365;
+}
+
+.spacer {
+  height: 150px;
+}
+
+.intro,
+.certificates {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 50%;
+}
+.work-sample {
+  background: url("../images/work-sample-bgr.jpg");
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: top;
+  color: #041c32;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.work-content {
+  color: #064663;
+}
+.work-icons {
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.work-icons:hover,
+.c-icon:hover {
+  cursor: pointer;
+  width: 185px;
+  height: auto;
+}
+.bb {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.bb:hover {
+  background-color: #006097;
+  border-color: #006097;
+  color: white;
+}
+
+.cv-hero {
+  background: url("../images/cv-hero-bgr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+  padding-bottom: 100px;
+}
+.resume {
+  margin: 100px 20px 20px 20px;
+}
+
+.content {
+  text-align: justify;
+  color: wheat;
+  font-size: small;
+}
+
+.cv-head {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.c-icon {
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.cont {
+  color: wheat;
+}
+.spacer-1 {
+  height: 70px;
+}
+
+/* IDs */
+
+#hero-heading,
+#workh1,
+#certify {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 64px;
+}
+
+#avatar {
+  margin-bottom: 50px;
+}
+.wh4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo {
+  width: 50px;
+  height: auto;
+}
